@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import {FormBuilder, FormGroup, Validators} from '@angular/forms';
+import { ValidarCamposService } from '../../shared/components/campos/validar-campos.service';
 
 @Component({
   selector: 'dio-cadastro-filmes',
@@ -9,8 +10,9 @@ import {FormBuilder, FormGroup, Validators} from '@angular/forms';
 export class CadastroFilmesComponent implements OnInit {
 
   cadastro: FormGroup;
+  generos: Array<string>;
 
-  constructor(private fb: FormBuilder) { }
+  constructor(public validacao: ValidarCamposService, private fb: FormBuilder) { }
 
   get f() {
     return this.cadastro.controls;
@@ -28,6 +30,8 @@ export class CadastroFilmesComponent implements OnInit {
      genero: ['',[Validators.required]]
 
     });
+
+    this.generos = ['Acao', 'Romance', 'Aventura', 'Terror', 'Ficçao Cientifica', 'Comedia', 'Drama'];
 
   }
 
