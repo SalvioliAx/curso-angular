@@ -129,36 +129,6 @@
       "urlIMDb": "https://www.imdb.com/title/tt0120815/?ref_=nv_sr_srsg_0",
       "genero": "Drama",
       "id": 13
-    },
-    {
-      "titulo": "teste",
-      "urlFoto": "",
-      "dtLancamento": "2020-06-02T03:00:00.000Z",
-      "descricao": "",
-      "nota": 0,
-      "urlIMDb": "",
-      "genero": "Acao",
-      "id": 14
-    },
-    {
-      "titulo": "teste",
-      "urlFoto": "",
-      "dtLancamento": "2020-06-02T03:00:00.000Z",
-      "descricao": "",
-      "nota": 0,
-      "urlIMDb": "",
-      "genero": "Acao",
-      "id": 15
-    },
-    {
-      "titulo": "dasdasd",
-      "urlFoto": "",
-      "dtLancamento": "2020-06-02T03:00:00.000Z",
-      "descricao": "",
-      "nota": 10,
-      "urlIMDb": "",
-      "genero": "Comedia",
-      "id": 16
     }
   ]
 }
